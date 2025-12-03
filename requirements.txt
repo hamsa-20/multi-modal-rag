@@ -1,0 +1,18 @@
+streamlit
+faiss-cpu
+tqdm
+pymupdf            # fitz for PDF text & image extraction
+pdfplumber
+camelot-py==0.10.1 # table extraction (requires java & ghostscript on host)
+pytesseract
+Pillow
+numpy
+scikit-learn
+sentence-transformers
+openai             # if using OpenAI embeddings / chat
+langchain          # optional: orchestration
+python-multipart
+uvicorn
+fastapi
+pdfminer.six
+git+https://github.com/openai/CLIP.git   # optional vision-text
